@@ -1,0 +1,78 @@
+{
+	"language": "Langue",
+	"welcome": "Bienvenue dans mon portfolio !",
+	"home": {
+		"title": "Bonjour, je suis Jade Van brabandt",
+		"subtitle": "Technicienne Informatique & Développeuse Web"
+	},
+	"about": {
+		"title": "À propos de moi",
+		"description": "Je suis une technicienne en informatique passionnée par le développement web. J'ai un Bac+3 en Informatique et je suis spécialisée dans le développement front-end et back-end.",
+		"skillsTitle": "Compétences :",
+		"skills": [
+			"React, JavaScript",
+			"HTML, CSS, Tailwind CSS",
+			"Node.js, Express",
+			"Git/GitHub",
+			"Gestion de projet avec Jira et Trello",
+			"Création de diagrammes UML avec PlantUML"
+		],
+		"experienceTitle": "Expérience Professionnelle :",
+		"experience": [
+			"Technicienne Informatique chez XYZ Company (2018-2021)",
+			"Développeuse Web Freelance (2021-Présent)"
+		],
+		"languagesTitle": "Langues",
+		"languages": {
+			"french": "Français : Langue Maternelle",
+			"english": "Anglais : Niveau B2"
+		},
+		"interestsTitle": "Centres d'Intérêt",
+		"interests": {
+			"animation": "Films d’animation",
+			"mmorpg": "MMORPG"
+		}
+	},
+	"projects": {
+		"title": "Mes Projets",
+		"technologies": "Technologies",
+		"languages": "Langages",
+		"viewProject": "Voir le projet",
+		"list": [
+			{
+				"title": "IA en réseau de neurones",
+				"description": "Reconnaissance de comportements de souris à partir d’images et de vidéos en collaboration avec le CHU de Clermont-Ferrand.",
+				"technologies": "Python, Sklearn, PyTorch",
+				"languages": "Python",
+				"link": "#"
+			},
+			{
+				"title": "Application Web & Mobile de QCM Mathématique",
+				"description": "Application de QCM avec gestion des données via un back-office Blazor et un système MVC en PHP.",
+				"technologies": "PHP, PHPUnit, Blazor (C#), Kotlin, MariaDB",
+				"languages": "PHP, C#, Kotlin",
+				"link": "#"
+			},
+			{
+				"title": "Adaptation d’un site web JS OpenSource et d’Add-On WoW",
+				"description": "Adaptation de code avec et sans documentation, gestion des rapports de problèmes des utilisateurs.",
+				"technologies": "JavaScript, HTML, CSS, LUA",
+				"languages": "JavaScript, LUA",
+				"link": "#"
+			}
+		]
+	},
+	"contact": {
+		"title": "Contactez-moi",
+		"placeholder": "Écrivez votre message ici...",
+		"submit": "Envoyer",
+		"alert": "Message envoyé : {{message}}",
+		"intro": "N'hésitez pas à me contacter pour toute question ou opportunité."
+	},
+	"navbar": {
+		"home": "Accueil",
+		"about": "À propos",
+		"projects": "Projets",
+		"contact": "Contact"
+	}
+}

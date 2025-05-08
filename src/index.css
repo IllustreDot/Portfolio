@@ -1,3 +1,116 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Fade animations */
+.fade-in {
+	animation: fadeIn 0.5s ease-in-out;
+}
+
+.fade-out {
+	animation: fadeOut 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+/* Fade-in-out animations */
+.fade-in-out {
+	opacity: 0;
+	animation: fadeInOut 0.5s forwards;
+}
+
+@keyframes fadeInOut {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Fix footer at the bottom */
+footer {
+	margin-top: auto;
+}
+
+.bg-home {
+	background-color: #f0f4f8;
+}
+
+.bg-other {
+	background-color: #ffffff;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+	.bg-home {
+		background-color: #1a202c;
+	}
+
+	.bg-other {
+		background-color: #2d3748;
+	}
+}
+
+/* Wave animations */
+.wave {
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	background: radial-gradient(
+		circle,
+		rgba(180, 180, 180, 0.3) 0%,
+		rgba(255, 255, 255, 0) 80%
+	);
+	opacity: 0.5;
+	animation: moveWaves 30s infinite linear; /* Animation plus lente */
+	border-radius: 50%;
+}
+
+.dark .wave {
+	background: radial-gradient(
+		circle,
+		rgba(80, 80, 80, 0.4) 0%,
+		rgba(0, 0, 0, 0) 80%
+	);
+}
+
+.wave-1 {
+	top: -20%;
+	left: -20%;
+	animation-delay: 0s;
+}
+
+.wave-2 {
+	top: -30%;
+	left: -30%;
+	animation-delay: 15s;
+}
+
+@keyframes moveWaves {
+	0% {
+		transform: translateX(0) translateY(0) scale(1) rotate(0deg);
+	}
+	50% {
+		transform: translateX(500px) translateY(-200px) scale(1.05) rotate(180deg);
+	}
+	100% {
+		transform: translateX(0) translateY(0) scale(1) rotate(360deg);
+	}
+}

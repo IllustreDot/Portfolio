@@ -1,0 +1,79 @@
+{
+	"language": "Language",
+	"welcome": "Welcome to my portfolio!",
+	"home": {
+		"title": "Hello, I am Jade Van brabandt",
+		"subtitle": "IT Technician & Web Developer"
+	},
+	"about": {
+		"title": "About Me",
+		"description": "I am an IT technician passionate about web development. I have a Bachelor's degree in Computer Science and specialize in front-end and back-end development.",
+		"skillsTitle": "Skills:",
+		"skills": [
+			"React, JavaScript",
+			"HTML, CSS, Tailwind CSS",
+			"Node.js, Express",
+			"Git/GitHub",
+
+			"Project management with Jira and Trello",
+			"Creating UML diagrams with PlantUML"
+		],
+		"experienceTitle": "Professional Experience:",
+		"experience": [
+			"IT Technician at XYZ Company (2018-2021)",
+			"Freelance Web Developer (2021-Present)"
+		],
+		"languagesTitle": "Languages",
+		"languages": {
+			"french": "French: Native",
+			"english": "English: B2 Level"
+		},
+		"interestsTitle": "Interests",
+		"interests": {
+			"animation": "Animated Movies",
+			"mmorpg": "MMORPGs"
+		}
+	},
+	"projects": {
+		"title": "My Projects",
+		"technologies": "Technologies",
+		"languages": "Languages",
+		"viewProject": "View Project",
+		"list": [
+			{
+				"title": "Neural Network AI",
+				"description": "Mouse behavior recognition from images and videos in collaboration with the CHU of Clermont-Ferrand.",
+				"technologies": "Python, Sklearn, PyTorch",
+				"languages": "Python",
+				"link": "#"
+			},
+			{
+				"title": "Web & Mobile Math Quiz Application",
+				"description": "Quiz application with data management via a Blazor back-office and an MVC system in PHP.",
+				"technologies": "PHP, PHPUnit, Blazor (C#), Kotlin, MariaDB",
+				"languages": "PHP, C#, Kotlin",
+				"link": "#"
+			},
+			{
+				"title": "Adaptation of an OpenSource JS Website and WoW Add-On",
+				"description": "Code adaptation with and without documentation, user issue report management.",
+				"technologies": "JavaScript, HTML, CSS, LUA",
+				"languages": "JavaScript, LUA",
+				"link": "#"
+			}
+		]
+	},
+	"contact": {
+		"title": "Contact Me",
+		"placeholder": "Write your message here...",
+		"submit": "Send",
+		"alert": "Message sent: {{message}}",
+		"intro": "Feel free to contact me for any questions or opportunities."
+	},
+	"navbar": {
+		"home": "Home",
+		"about": "About",
+		"projects": "Projects",
+		"contact": "Contact"
+	}
+}
