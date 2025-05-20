@@ -17,7 +17,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 				isHome
 					? "top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg"
 					: "top-0 -translate-x-1/2 rounded-b-lg"
-			} transition-all duration-500 bg-gray-800 dark:bg-gray-100 text-white dark:text-gray-900 p-4 w-1/4 z-50 flex items-center`}
+			} transition-all duration-500 bg-[#1e1e1e] dark:bg-[#ff9500] text-white dark:text-gray-900 p-4 w-1/4 z-50 flex items-center`}
 		>
 			<div className="flex justify-between items-center h-full w-full">
 				<ul className="flex justify-center items-center space-x-8">

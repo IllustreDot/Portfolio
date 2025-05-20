@@ -50,6 +50,14 @@
 				"images": ["image1.jpg", "image2.jpg"]
 			},
 			{
+				"title": "Wfast",
+				"description": "Web extension to facilitate the navigation between Raider.io, WoWProgress and Warcraftlogs to optimize the reruitement process",
+				"technologies": "JS",
+				"languages": "JavaScript",
+				"link": "https://github.com/IllustreDot/WFast",
+				"images": ["image11.jpg", "image12.jpg"]
+			},
+			{
 				"title": "MuscuMaths",
 				"description": "Quiz application with data management via a Blazor back-office and an MVC system in PHP.",
 				"technologies": "PHP, PHPUnit, Blazor (C#), Kotlin, MariaDB",
@@ -80,14 +88,6 @@
 				"languages": "HTML, CSS, JavaScript",
 				"link": "https://github.com/IllustreDot/Duskhaven_TalentCalculator",
 				"images": ["image9.jpg", "image10.jpg"]
-			},
-			{
-				"title": "Wfast",
-				"description": "Web extension to facilitate the navigation between Raider.io, WoWProgress and Warcraftlogs to optimize the reruitement process",
-				"technologies": "JS",
-				"languages": "JavaScript",
-				"link": "https://github.com/IllustreDot/WFast",
-				"images": ["image11.jpg", "image12.jpg"]
 			}
 		]
 	},

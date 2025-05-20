@@ -17,7 +17,7 @@ const ProjectCard = ({ project }) => {
     return (
         <div>
             <div
-                className="bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 shadow-lg rounded-lg p-4 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer"
+                className="h-[250px] bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 shadow-lg rounded-lg p-4 hover:bg-gray-200 dark:hover:bg-gray-700 cursor-pointer"
                 onClick={handleCardClick}
             >
                 <h3 className="text-xl font-semibold">{project.title}</h3>

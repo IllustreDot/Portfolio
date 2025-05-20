@@ -114,3 +114,15 @@ footer {
 		transform: translateX(0) translateY(0) scale(1) rotate(360deg);
 	}
 }
+
+h2{
+	display:inline-block;
+	background-color: #1e1e1e;
+	color: #f0f4f8;
+}
+
+.dark h2{
+	display:inline-block;
+	background-color: #ff9500;
+	color:black;
+}
