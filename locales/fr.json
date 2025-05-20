@@ -37,28 +37,56 @@
 		"title": "Mes Projets",
 		"technologies": "Technologies",
 		"languages": "Langages",
-		"viewProject": "Voir le projet",
+		"viewProject": "Lien Git",
+		"clickToView": "Cliquez pour voir le projet",
 		"list": [
 			{
 				"title": "IA en réseau de neurones",
 				"description": "Reconnaissance de comportements de souris à partir d’images et de vidéos en collaboration avec le CHU de Clermont-Ferrand.",
 				"technologies": "Python, Sklearn, PyTorch",
 				"languages": "Python",
-				"link": "#"
+				"link": "https://github.com/IllustreDot/SAE_IA",
+				"images": ["image1.jpg", "image2.jpg"]
+			},
+			{
+				"title": "Wfast",
+				"description": "Extension web pour faciliter la navigation entre Raider.io, WoWProgress et Warcraftlogs afin d'optimiser le processus de recrutement.",
+				"technologies": "JS",
+				"languages": "JavaScript",
+				"link": "https://github.com/IllustreDot/WFast",
+				"images": ["image11.jpg", "image12.jpg"]
 			},
 			{
 				"title": "Application Web & Mobile de QCM Mathématique",
 				"description": "Application de QCM avec gestion des données via un back-office Blazor et un système MVC en PHP.",
 				"technologies": "PHP, PHPUnit, Blazor (C#), Kotlin, MariaDB",
 				"languages": "PHP, C#, Kotlin",
-				"link": "#"
+				"link": "https://codefirst.iut.uca.fr/git/jade.van_brabandt/3.01-QCM_MuscuMaths",
+				"images": ["image3.jpg", "image4.jpg"]
 			},
 			{
-				"title": "Adaptation d’un site web JS OpenSource et d’Add-On WoW",
+				"title": "AtlasLoot pour Duskhaven",
 				"description": "Adaptation de code avec et sans documentation, gestion des rapports de problèmes des utilisateurs.",
-				"technologies": "JavaScript, HTML, CSS, LUA",
-				"languages": "JavaScript, LUA",
-				"link": "#"
+				"technologies": "LUA",
+				"languages": "LUA",
+				"link": "https://github.com/IllustreDot/AtlasLoot_Duskhaven",
+				"images": ["image5.jpg", "image6.jpg"]
+			},
+			{
+				"title": "Portfolio",
+				"description": "Mon portfolio personnel pour présenter mes projets et compétences.",
+				"technologies": "React, JavaScript, Tailwind CSS",
+				"languages": "JavaScript",
+				"link": "http://github.com/IllustreDot/Portfolio",
+				"images": ["image7.jpg", "image8.jpg"]
+			},
+			{
+				"title": "Talent Calculator pour Duskhaven",
+				"description": "Adaptation du site web pour intégrer les nouvelles fonctionnalités du serveur.",
+				"technologies": "HTML, CSS, JS",
+				"languages": "HTML, CSS, JavaScript",
+				"link": "https://github.com/IllustreDot/Duskhaven_TalentCalculator",
+				"images": ["image9.jpg", "image10.jpg"]
 			}
 		]
 	},

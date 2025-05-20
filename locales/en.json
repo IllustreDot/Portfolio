@@ -38,28 +38,56 @@
 		"title": "My Projects",
 		"technologies": "Technologies",
 		"languages": "Languages",
-		"viewProject": "View Project",
+		"viewProject": "Git Link",
+		"clickToView": "Click to view the project",
 		"list": [
 			{
 				"title": "Neural Network AI",
 				"description": "Mouse behavior recognition from images and videos in collaboration with the CHU of Clermont-Ferrand.",
 				"technologies": "Python, Sklearn, PyTorch",
 				"languages": "Python",
-				"link": "#"
+				"link": "https://github.com/IllustreDot/SAE_IA",
+				"images": ["image1.jpg", "image2.jpg"]
 			},
 			{
-				"title": "Web & Mobile Math Quiz Application",
+				"title": "MuscuMaths",
 				"description": "Quiz application with data management via a Blazor back-office and an MVC system in PHP.",
 				"technologies": "PHP, PHPUnit, Blazor (C#), Kotlin, MariaDB",
 				"languages": "PHP, C#, Kotlin",
-				"link": "#"
+				"link": "https://codefirst.iut.uca.fr/git/jade.van_brabandt/3.01-QCM_MuscuMaths",
+				"images": ["image3.jpg", "image4.jpg"]
 			},
 			{
-				"title": "Adaptation of an OpenSource JS Website and WoW Add-On",
+				"title": "AtlasLoot for Duskhaven",
 				"description": "Code adaptation with and without documentation, user issue report management.",
-				"technologies": "JavaScript, HTML, CSS, LUA",
-				"languages": "JavaScript, LUA",
-				"link": "#"
+				"technologies": "LUA",
+				"languages": "LUA",
+				"link": "https://github.com/IllustreDot/AtlasLoot_Duskhaven",
+				"images": ["image5.jpg", "image6.jpg"]
+			},
+			{
+				"title": "Portfolio",
+				"description": "My personal portfolio to showcase my projects and skills.",
+				"technologies": "React, JavaScript, Tailwind CSS",
+				"languages": "JavaScript",
+				"link": "http://github.com/IllustreDot/Portfolio",
+				"images": ["image7.jpg", "image8.jpg"]
+			},
+			{
+				"title": "Talent Calculator for Duskhaven",
+				"description": "Adaptation of the website to fit the new features of the server.",
+				"technologies": "HTML, CSS, JS",
+				"languages": "HTML, CSS, JavaScript",
+				"link": "https://github.com/IllustreDot/Duskhaven_TalentCalculator",
+				"images": ["image9.jpg", "image10.jpg"]
+			},
+			{
+				"title": "Wfast",
+				"description": "Web extension to facilitate the navigation between Raider.io, WoWProgress and Warcraftlogs to optimize the reruitement process",
+				"technologies": "JS",
+				"languages": "JavaScript",
+				"link": "https://github.com/IllustreDot/WFast",
+				"images": ["image11.jpg", "image12.jpg"]
 			}
 		]
 	},
