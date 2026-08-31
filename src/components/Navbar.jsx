@@ -1,14 +1,14 @@
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { toggleLanguage } from "../i18n";
 
 const Navbar = ({ darkMode, setDarkMode }) => {
 	const location = useLocation();
 	const isHome = location.pathname === "/";
 	const { i18n, t } = useTranslation();
 
-	const toggleLanguage = () => {
-		const newLang = i18n.language === "fr" ? "en" : "fr";
-		i18n.changeLanguage(newLang);
+	const handleLanguageToggle = () => {
+		toggleLanguage();
 	};
 
 	return (
@@ -72,10 +72,10 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 					</button>
 					{/* Language toggle */}
 					<button
-						onClick={toggleLanguage}
+						onClick={handleLanguageToggle}
 						className="bg-white dark:bg-white text-gray-800 dark:text-gray-900 p-2 rounded shadow transition-colors duration-500"
 					>
-						{i18n.language === "fr" ? "🇫🇷" : "🇺🇸"}
+						{i18n.resolvedLanguage === "fr" ? "🇫🇷" : "🇺🇸"}
 					</button>
 				</div>
 			</div>

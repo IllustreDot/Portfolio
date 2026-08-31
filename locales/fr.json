@@ -3,11 +3,11 @@
 	"welcome": "Bienvenue dans mon portfolio !",
 	"home": {
 		"title": "Bonjour, je suis Jade Van brabandt",
-		"subtitle": "Technicienne Informatique & Développeuse Web"
+		"subtitle": "Développeuse Web"
 	},
 	"about": {
 		"title": "À propos de moi",
-		"description": "Je suis une technicienne en informatique passionnée par le développement web. J'ai un Bac+3 en Informatique et je suis spécialisée dans le développement front-end et back-end.",
+		"description": "Je suis une développeuse en informatique passionnée par le développement web. J'ai un Bachelor en Informatique et je suis spécialisée dans le développement front-end et back-end.",
 		"skillsTitle": "Compétences :",
 		"skills": [
 			"React, JavaScript",
@@ -17,20 +17,32 @@
 			"Gestion de projet avec Jira et Trello",
 			"Création de diagrammes UML avec PlantUML"
 		],
-		"experienceTitle": "Expérience Professionnelle :",
-		"experience": [
-			"Technicienne Informatique chez XYZ Company (2018-2021)",
-			"Développeuse Web Freelance (2021-Présent)"
-		],
 		"languagesTitle": "Langues",
 		"languages": {
 			"french": "Français : Langue Maternelle",
-			"english": "Anglais : Niveau B2"
+			"english": "Anglais : Niveau B2",
+			"extra": "TOEIC : 925/990"
+
 		},
 		"interestsTitle": "Centres d'Intérêt",
 		"interests": {
-			"animation": "Films d’animation",
-			"mmorpg": "MMORPG"
+			"mmorpg": "MMORPG",
+			"music": "Musique",
+			"undergroundMusic": "Musique underground",
+			"animation": "Films"
+		},
+		"otherSkillsTitle": "Autres compétences",
+		"otherSkills": {
+			"Linux": "Linux",
+			"Mac": "Mac",
+			"Windows": "Windows",
+			"Git/Gitlab/Gitea": "Git/Gitlab/Gitea",
+			"CI/CD": "CI/CD",
+			"Management": "Gestion",
+			"Méthode Agile (Scrum & TDD)": "Méthode Agile (Scrum & TDD)",
+			"Kanban (Jira, Trello)": "Kanban (Jira, Trello)",
+			"UML/PlantUML": "UML/PlantUML",
+			"Patron de conception": "Patron de conception"
 		}
 	},
 	"projects": {
@@ -46,7 +58,7 @@
 				"technologies": "Python, Sklearn, PyTorch",
 				"languages": "Python",
 				"link": "https://github.com/IllustreDot/SAE_IA",
-				"images": ["image1.jpg", "image2.jpg"]
+				"images": []
 			},
 			{
 				"title": "Wfast",
@@ -54,15 +66,15 @@
 				"technologies": "JS",
 				"languages": "JavaScript",
 				"link": "https://github.com/IllustreDot/WFast",
-				"images": ["image11.jpg", "image12.jpg"]
+				"images": ["media/wfast-rio.png", "media/wfast-wlog.png", "media/wfast-wowprogress.png"]
 			},
 			{
 				"title": "Application Web & Mobile de QCM Mathématique",
 				"description": "Application de QCM avec gestion des données via un back-office Blazor et un système MVC en PHP.",
 				"technologies": "PHP, PHPUnit, Blazor (C#), Kotlin, MariaDB",
 				"languages": "PHP, C#, Kotlin",
-				"link": "https://codefirst.iut.uca.fr/git/jade.van_brabandt/3.01-QCM_MuscuMaths",
-				"images": ["image3.jpg", "image4.jpg"]
+				"link": "",
+				"images": ["media/Muscumath1.png", "media/Muscumath2.png"]
 			},
 			{
 				"title": "AtlasLoot pour Duskhaven",
@@ -70,7 +82,7 @@
 				"technologies": "LUA",
 				"languages": "LUA",
 				"link": "https://github.com/IllustreDot/AtlasLoot_Duskhaven",
-				"images": ["image5.jpg", "image6.jpg"]
+				"images": ["media/atlasloot.png"]
 			},
 			{
 				"title": "Portfolio",
@@ -78,7 +90,7 @@
 				"technologies": "React, JavaScript, Tailwind CSS",
 				"languages": "JavaScript",
 				"link": "http://github.com/IllustreDot/Portfolio",
-				"images": ["image7.jpg", "image8.jpg"]
+				"images": ["media/portfolio.png"]
 			},
 			{
 				"title": "Talent Calculator pour Duskhaven",
@@ -86,7 +98,7 @@
 				"technologies": "HTML, CSS, JS",
 				"languages": "HTML, CSS, JavaScript",
 				"link": "https://github.com/IllustreDot/Duskhaven_TalentCalculator",
-				"images": ["image9.jpg", "image10.jpg"]
+				"images": []
 			}
 		]
 	},

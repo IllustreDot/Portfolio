@@ -24,7 +24,8 @@ const App = () => {
 	}, [darkMode]);
 
 	return (
-		<Router>
+		<Router basename={import.meta.env.MODE === "production" ? "/" : "/"}>
+			{" "}
 			<div className="relative flex flex-col min-h-screen text-gray-900 dark:text-gray-100 transition-colors duration-300">
 				{/* Background Waves */}
 				<div className="absolute inset-0 -z-10 overflow-hidden pointer-events-none bg-gray-100 dark:bg-gray-900">

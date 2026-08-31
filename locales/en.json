@@ -3,42 +3,62 @@
 	"welcome": "Welcome to my portfolio!",
 	"home": {
 		"title": "Hello, I am Jade Van brabandt",
-		"subtitle": "IT Technician & Web Developer"
+		"subtitle": "Web Developer"
 	},
 	"about": {
 		"title": "About Me",
-		"description": "I am an IT technician passionate about web development. I have a Bachelor's degree in Computer Science and specialize in front-end and back-end development.",
+		"description": "I am a developper passionate about web development. I have a Bachelor's degree in Computer Science and specialize in front-end and back-end development.",
 		"skillsTitle": "Skills:",
-		"skills": [
-			"React, JavaScript",
-			"HTML, CSS, Tailwind CSS",
-			"Node.js, Express",
-			"Git/GitHub",
-
-			"Project management with Jira and Trello",
-			"Creating UML diagrams with PlantUML"
-		],
-		"experienceTitle": "Professional Experience:",
-		"experience": [
-			"IT Technician at XYZ Company (2018-2021)",
-			"Freelance Web Developer (2021-Present)"
-		],
+		"skills": {
+			"HTML": "HTML",
+			"CSS": "CSS",
+			"JavaScript": "JavaScript",
+			"React": "React",
+			"Node.js": "Node.js",
+			"TypeScript": "TypeScript",
+			"PHP (Symfony)": "PHP (Symfony)",
+			"Vue/Angular": "Vue/Angular",
+			"PostgreSQL": "PostgreSQL",
+			"Ruby (Rails)": "Ruby (Rails)",
+			"Python": "Python",
+			"LUA": "LUA",
+			"Java": "Java",
+			"Kotlin": "Kotlin",
+			"C#": "C#",
+			"C / C++": "C / C++"
+		},
+		"otherSkillsTitle": "Other Skills",
+		"otherSkills": {
+			"Linux": "Linux",
+			"Mac": "Mac",
+			"Windows": "Windows",
+			"Git/Gitlab/Gitea": "Git/Gitlab/Gitea",
+			"CI/CD": "CI/CD",
+			"Management": "Management",
+			"Méthode Agile (Scrum & TDD)": "Agile Methodology (Scrum & TDD)",
+			"Kanban (Jira, Trello)": "Kanban (Jira, Trello)",
+			"UML/PlantUML": "UML/PlantUML",
+			"Patron de conception": "Design Patterns"
+		},
 		"languagesTitle": "Languages",
 		"languages": {
 			"french": "French: Native",
-			"english": "English: B2 Level"
+			"english": "English: B2 Level",
+			"extra": "TOEIC : 925/990"
 		},
 		"interestsTitle": "Interests",
 		"interests": {
-			"animation": "Animated Movies",
-			"mmorpg": "MMORPGs"
+			"mmorpg": "MMORPGs",
+			"music": "Music",
+			"undergroundMusic": "Underground Music",
+			"animation": "Films"
 		}
 	},
 	"projects": {
 		"title": "My Projects",
 		"technologies": "Technologies",
 		"languages": "Languages",
-		"viewProject": "Git Link",
+		"viewProject": "View Project",
 		"clickToView": "Click to view the project",
 		"list": [
 			{
@@ -47,7 +67,7 @@
 				"technologies": "Python, Sklearn, PyTorch",
 				"languages": "Python",
 				"link": "https://github.com/IllustreDot/SAE_IA",
-				"images": ["image1.jpg", "image2.jpg"]
+				"images": []
 			},
 			{
 				"title": "Wfast",
@@ -55,7 +75,7 @@
 				"technologies": "JS",
 				"languages": "JavaScript",
 				"link": "https://github.com/IllustreDot/WFast",
-				"images": ["image11.jpg", "image12.jpg"]
+				"images": ["media/wfast-rio.png", "media/wfast-wlog.png", "media/wfast-wowprogress.png"]
 			},
 			{
 				"title": "MuscuMaths",
@@ -63,7 +83,7 @@
 				"technologies": "PHP, PHPUnit, Blazor (C#), Kotlin, MariaDB",
 				"languages": "PHP, C#, Kotlin",
 				"link": "https://codefirst.iut.uca.fr/git/jade.van_brabandt/3.01-QCM_MuscuMaths",
-				"images": ["image3.jpg", "image4.jpg"]
+				"images": ["media/Muscumath1.png", "media/Muscumath2.png"]
 			},
 			{
 				"title": "AtlasLoot for Duskhaven",
@@ -71,7 +91,7 @@
 				"technologies": "LUA",
 				"languages": "LUA",
 				"link": "https://github.com/IllustreDot/AtlasLoot_Duskhaven",
-				"images": ["image5.jpg", "image6.jpg"]
+				"images": ["media/atlasloot.png"]
 			},
 			{
 				"title": "Portfolio",
@@ -79,7 +99,7 @@
 				"technologies": "React, JavaScript, Tailwind CSS",
 				"languages": "JavaScript",
 				"link": "http://github.com/IllustreDot/Portfolio",
-				"images": ["image7.jpg", "image8.jpg"]
+				"images": ["media/portfolio.png"]
 			},
 			{
 				"title": "Talent Calculator for Duskhaven",
@@ -87,7 +107,7 @@
 				"technologies": "HTML, CSS, JS",
 				"languages": "HTML, CSS, JavaScript",
 				"link": "https://github.com/IllustreDot/Duskhaven_TalentCalculator",
-				"images": ["image9.jpg", "image10.jpg"]
+				"images": []
 			}
 		]
 	},
@@ -103,5 +123,23 @@
 		"about": "About",
 		"projects": "Projects",
 		"contact": "Contact"
+	},
+	"skillLevels": {
+		"HTML": "95%",
+		"CSS": "95%",
+		"JavaScript": "95%",
+		"React": "70%",
+		"Node.js": "95%",
+		"TypeScript": "85%",
+		"PHP (Symfony)": "90%",
+		"Vue/Angular": "90%",
+		"PostgreSQL": "95%",
+		"Ruby (Rails)": "60%",
+		"Python": "95%",
+		"LUA": "75%",
+		"Java": "85%",
+		"Kotlin": "75%",
+		"C#": "90%",
+		"C / C++": "85%"
 	}
 }

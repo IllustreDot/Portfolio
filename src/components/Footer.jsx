@@ -14,6 +14,12 @@ const Footer = () => {
 				>
 					GitHub
 				</a>
+				<p>
+					🇫🇷 +33 0637171224
+				</p>
+				<a href="mailto:jade.van.brabandt.04@gmail.com">
+					Jade.Van.Brabandt.04@gmail.com
+				</a>
 			</div>
 		</footer>
 	);

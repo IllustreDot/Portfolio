@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Fade animations */
 .fade-in {
 	animation: fadeIn 0.5s ease-in-out;
 }
@@ -29,7 +28,6 @@
 	}
 }
 
-/* Fade-in-out animations */
 .fade-in-out {
 	opacity: 0;
 	animation: fadeInOut 0.5s forwards;
@@ -44,7 +42,6 @@
 	}
 }
 
-/* Fix footer at the bottom */
 footer {
 	margin-top: auto;
 }
@@ -57,7 +54,6 @@ footer {
 	background-color: #ffffff;
 }
 
-/* Dark mode styles */
 @media (prefers-color-scheme: dark) {
 	.bg-home {
 		background-color: #1a202c;
@@ -68,7 +64,6 @@ footer {
 	}
 }
 
-/* Wave animations */
 .wave {
 	position: absolute;
 	width: 200%;
@@ -79,7 +74,7 @@ footer {
 		rgba(255, 255, 255, 0) 80%
 	);
 	opacity: 0.5;
-	animation: moveWaves 30s infinite linear; /* Animation plus lente */
+	animation: moveWaves 30s infinite linear;
 	border-radius: 50%;
 }
 
@@ -115,14 +110,14 @@ footer {
 	}
 }
 
-h2{
-	display:inline-block;
+h2 {
+	display: inline-block;
 	background-color: #1e1e1e;
 	color: #f0f4f8;
 }
 
-.dark h2{
-	display:inline-block;
+.dark h2 {
+	display: inline-block;
 	background-color: #ff9500;
-	color:black;
+	color: black;
 }
