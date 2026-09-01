@@ -44,7 +44,7 @@ const ImageSlider = ({ images, onClose }) => {
                     &times;
                 </button>
                 <img
-                    src={images[currentIndex]}
+                    src={`${import.meta.env.BASE_URL}${images[currentIndex]}`}
                     alt={`Slide ${currentIndex + 1}`}
                     className="w-full h-full object-contain"
                 />

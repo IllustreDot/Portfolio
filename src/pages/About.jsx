@@ -13,7 +13,7 @@ const About = () => {
 				{/* Photo Section */}
 				<div className="mb-6 text-center">
 					<img
-						src="media/me.png"
+						src="{`${import.meta.env.BASE_URL}media/me.png`}"
 						alt="Profile"
 						className="w-32 h-32 rounded-full object-contain mx-auto border-2 border-gray-300 dark:border-gray-700 shadow-lg"
 					/>
